@@ -81,7 +81,8 @@ Options are passed to `explorer(sapp, options)`.
 
 `apiInfo`: **Object**
 
-> Additional information about your API. 
+> Additional information about your API. See the 
+> [spec](https://github.com/wordnik/swagger-spec/blob/master/versions/1.2.md#513-info-object).
 
 Field Name | Type | Description
 ---|:---:|---
@@ -92,12 +93,12 @@ Field Name | Type | Description
 <a name="infoLicense"/>license | `string` | The license name used for the API.
 <a name="infoLicenseUrl"/>licenseUrl | `string` | A URL to the license used for the API.
 
-
 `resourcePath`: **String**
 
 > Default: `'resources'`
 
-> Sets a different path for the resource listing.
+> Sets a different path for the 
+> [resource listing](https://github.com/wordnik/swagger-spec/blob/master/versions/1.2.md#51-resource-listing).
 > You generally shouldn't have to change this.
 
 `version`: **String**
