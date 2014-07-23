@@ -32,7 +32,6 @@ console.log("Explorer mounted at localhost:" + port + "/explorer");
 
 // start server
 app.listen(port);
-
 ```
 
 ## Advanced Usage
@@ -63,7 +62,7 @@ Options are passed to `explorer(sapp, options)`.
 
 `basePath`: **String**
 
-> Default: `app.get('restAPIRoot')` or  `'/api'`.
+> Default: `'/api'`.
 
 > Sets the API's base path. This must be set if you are mounting your api
 > to a path different than '/api', e.g. with
