@@ -19,7 +19,7 @@ function explorer(sapp, options) {
 function buildLoopbackApplication(sapp) {
     return {
         get: function () {
-            return undefined;
+            return sapp.get.apply(sapp, arguments);
         },
         remotes: function () {
             return sapp.remotes;
