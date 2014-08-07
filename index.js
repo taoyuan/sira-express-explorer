@@ -1,5 +1,7 @@
 "use strict";
 
+require('./lib/patch');
+
 var path = require('path');
 
 module.exports = explorer;

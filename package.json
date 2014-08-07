@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/taoyuan/sira-explorer",
   "dependencies": {
+    "lodash.contains": "^2.4.1",
     "loopback-explorer": "^1.2.4"
   },
   "devDependencies": {
