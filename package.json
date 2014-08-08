@@ -23,6 +23,6 @@
   "devDependencies": {
     "express": "^4.6.1",
     "sira": "taoyuan/sira",
-    "sira-connect-rest": "taoyuan/sira-connect-rest"
+    "sira-rest": "taoyuan/sira-rest"
   }
 }

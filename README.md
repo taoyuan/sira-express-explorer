@@ -10,7 +10,7 @@ Below is a simple Sira application. The explorer is mounted at `/explorer`.
 ```js
 var sira = require('sira');
 var express = require('express');
-var rest = require('sira-connect-rest');
+var rest = require('sira-rest');
 var explorer = require('../');
 var port = 3000;
 
