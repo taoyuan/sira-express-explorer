@@ -2,7 +2,7 @@
 
 var sira = require('sira');
 var express = require('express');
-var rest = require('sira-rest');
+var rest = require('sira-express-rest');
 var explorer = require('../');
 var port = 3000;
 

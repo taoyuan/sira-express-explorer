@@ -1,5 +1,5 @@
 {
-  "name": "sira-explorer",
+  "name": "sira-express-explorer",
   "version": "0.0.1",
   "description": "Browse and test your Sira app's APIs",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taoyuan/sira-explorer.git"
+    "url": "https://github.com/taoyuan/sira-express-explorer.git"
   },
   "author": "Tao Yuan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taoyuan/sira-explorer/issues"
+    "url": "https://github.com/taoyuan/sira-express-explorer/issues"
   },
-  "homepage": "https://github.com/taoyuan/sira-explorer",
+  "homepage": "https://github.com/taoyuan/sira-express-explorer",
   "dependencies": {
     "lodash.clonedeep": "^2.4.1",
     "loopback-explorer": "^1.2.4"
@@ -23,6 +23,6 @@
   "devDependencies": {
     "express": "^4.6.1",
     "sira": "taoyuan/sira",
-    "sira-rest": "taoyuan/sira-rest"
+    "sira-express-rest": "taoyuan/sira-express-rest"
   }
 }

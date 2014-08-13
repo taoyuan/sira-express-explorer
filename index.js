@@ -9,7 +9,7 @@ module.exports = explorer;
 /**
  * Example usage:
  *
- * var explorer = require('sira-explorer');
+ * var explorer = require('sira-express-explorer');
  * app.use('/explorer', explorer(sapp, options));
  */
 function explorer(sapp, options) {
