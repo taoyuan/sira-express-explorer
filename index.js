@@ -14,12 +14,13 @@ module.exports = explorer;
  */
 function explorer(sapp, options) {
     options = options || {};
-    options.swaggerDistRoot = options.swaggerDistRoot || path.join(__dirname, 'public');
+    options.uiDirs = options.uiDirs || path.join(__dirname, 'public');
     return require('loopback-explorer')(buildLoopbackApplication(sapp), options);
 }
 
 function buildLoopbackApplication(sapp) {
     return {
+        models: sapp.models,
         get: function () {
             return sapp.get.apply(sapp, arguments);
         },

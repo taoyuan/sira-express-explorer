@@ -1,6 +1,6 @@
 {
   "name": "sira-express-explorer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Browse and test your Sira app's APIs",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/taoyuan/sira-express-explorer",
   "dependencies": {
-    "lodash.clonedeep": "^2.4.1",
-    "loopback-explorer": "^1.2.4"
+    "lodash.clonedeep": "^3.0.1",
+    "loopback-explorer": "^1.7.2"
   },
   "devDependencies": {
-    "express": "^4.6.1",
+    "express": "^4.12.4",
     "sira": "taoyuan/sira",
     "sira-express-rest": "taoyuan/sira-express-rest"
   }
