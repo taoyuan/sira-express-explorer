@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/taoyuan/sira-express-explorer",
   "dependencies": {
-    "lodash.clonedeep": "^3.0.1",
-    "loopback-explorer": "^1.7.2"
+    "lodash.clonedeep": "^4.5.0",
+    "loopback-explorer": "^2.0.2"
   },
   "devDependencies": {
     "express": "^4.12.4",
