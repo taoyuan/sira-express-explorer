@@ -1,6 +1,8 @@
 sira-express-explorer
 =============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/sira-express-explorer.svg)](https://greenkeeper.io/)
+
 Browse and test your Sira app's APIs.
 
 ## Basic Usage
